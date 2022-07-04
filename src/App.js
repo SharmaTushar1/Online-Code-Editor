@@ -19,7 +19,6 @@ function App() {
         </html>
       `)
     }, 250)
-    // console.log(srcDoc)
     return () => clearTimeout(timeout)
   }, [html, css, javascript])
 
